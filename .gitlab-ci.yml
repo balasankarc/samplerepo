@@ -2,3 +2,4 @@ test1:
  stage: test
  script: 
    - git status
+   - git push -f https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/balasankarc/samplerepo.git
